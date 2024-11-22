@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400803237515",
+    "project_id": "chatbot-avalonai",
+    "storage_bucket": "chatbot-avalonai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400803237515:android:0b0347487458d5ef698e8e",
+        "android_client_info": {
+          "package_name": "com.example.chatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIaUeGhEC55phcLARnw5xgz6lj2qMPFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
