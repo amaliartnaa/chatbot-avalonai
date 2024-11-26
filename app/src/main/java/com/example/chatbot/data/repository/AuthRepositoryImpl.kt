@@ -1,4 +1,4 @@
-package com.example.whatsapp.data.repository
+package com.example.chatbot.data.repository
 
 import com.example.chatbot.domain.model.User
 import com.example.chatbot.domain.repository.AuthRepository
@@ -24,8 +24,8 @@ import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
 class AuthRepositoryImpl @Inject constructor(
-    var firebaseAuth: FirebaseAuth,
-    var firebaseFirestore: FirebaseFirestore,
+    private var firebaseAuth: FirebaseAuth,
+    private var firebaseFirestore: FirebaseFirestore,
 ) : AuthRepository {
 
     private val coroutineScope = CoroutineScope(Dispatchers.IO)

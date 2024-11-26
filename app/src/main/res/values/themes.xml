@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Base.Theme.WhatsApp" parent="Theme.Material3.DayNight.NoActionBar">
 
-    <style name="Theme.ChatBot" parent="android:Theme.Material.Light.NoActionBar" />
+    </style>
+
+    <style name="Theme.WhatsApp" parent="Base.Theme.WhatsApp"/>
+
+    <style name="ToolbarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="TabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

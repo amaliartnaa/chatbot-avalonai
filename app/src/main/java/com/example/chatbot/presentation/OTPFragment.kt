@@ -47,6 +47,7 @@ class OTPFragment : BottomSheetDialogFragment(),IViewsHandling {
                 override fun afterTextChanged(p0: Editable?) {
 
                 }
+
             })
             it.otpBox2.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
@@ -64,6 +65,7 @@ class OTPFragment : BottomSheetDialogFragment(),IViewsHandling {
                 override fun afterTextChanged(p0: Editable?) {
 
                 }
+
             })
             it.otpBox3.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
@@ -81,6 +83,7 @@ class OTPFragment : BottomSheetDialogFragment(),IViewsHandling {
                 override fun afterTextChanged(p0: Editable?) {
 
                 }
+
             })
             it.otpBox4.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
@@ -98,6 +101,7 @@ class OTPFragment : BottomSheetDialogFragment(),IViewsHandling {
                 override fun afterTextChanged(p0: Editable?) {
 
                 }
+
             })
             it.otpBox5.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(p0: CharSequence?, p1:Int, p2: Int, p3: Int) {
@@ -115,6 +119,7 @@ class OTPFragment : BottomSheetDialogFragment(),IViewsHandling {
                 override fun afterTextChanged(p0: Editable?) {
 
                 }
+
             })
             it.otpBox6.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(p0: CharSequence?, p1:Int, p2: Int, p3: Int) {
@@ -135,6 +140,7 @@ class OTPFragment : BottomSheetDialogFragment(),IViewsHandling {
                 override fun afterTextChanged(p0: Editable?) {
 
                 }
+
             })
         }
     }
